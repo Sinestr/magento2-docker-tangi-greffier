@@ -4,6 +4,7 @@ services:
 
     php:
         container_name: m2_php_1
+        image: tgreffier/iia-magento2-fpm-php
         build:
             context: ./docker/php
         ports:
@@ -23,7 +24,7 @@ services:
 
     nginx:
         container_name: m2_nginx_1
-        image: nginx:1.14-alpine
+        image: tgreffier/iia-magento2-webserver
         ports:
             - 80:80
         volumes:
