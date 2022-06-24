@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/htdocs/setup/src/Magento/Setup" isTestSource="false" packagePrefix="Magento\Setup\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/setup/src/Zend/Mvc/Controller" isTestSource="false" packagePrefix="Zend\Mvc\Controller\" />
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-inventory-grouped-product-indexer" />
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/rector/rector" />
@@ -570,6 +571,60 @@
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/symfony/service-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/sebastian/finder-facade" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-log" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-hydrator" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-inputfilter" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-form" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-psr7bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-console" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-crypt" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/laminas/laminas-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/paragonie/sodium_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/yubico/u2flib-server" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-braintree" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-signifyd" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-tinymce-3" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-braintree-graph-ql" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-authorizenet-graph-ql" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-authorizenet-cardinal" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-paypal-recaptcha" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-authorizenet-acceptjs" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/magento/module-authorizenet" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/cache/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/dotmailer/dotmailer-magento2-extension-chat" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/msp/twofactorauth" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/msp/recaptcha" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/dotmailer/dotmailer-magento2-extension" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/jms/parser-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/flow/jsonpath" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/mikey179/vfsstream" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/csharpru/vault-php-guzzle6-transport" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/phpcollection/phpcollection" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/theseer/fdomdocument" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/klarna/module-core" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/klarna/module-ordermanagement" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/klarna/module-kp" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/donatj/phpuseragentparser" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/yotpo/magento2-module-yotpo-reviews" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/amzn/amazon-pay-sdk-php" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/amzn/amazon-pay-and-login-with-amazon-core-module" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/amzn/amazon-pay-module" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/amzn/login-with-amazon-module" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/vertexinc/module-address-validation-api" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/vertexinc/module-address-validation" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/vertexinc/sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/htdocs/vendor/vertexinc/module-tax" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$PROJECT_DIR$/htdocs/vendor/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/htdocs/vendor/bin/php-cs-fixer" />
+    </phpcsfixer_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/htdocs/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/htdocs/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-inventory-grouped-product-indexer" />
@@ -557,10 +572,69 @@
       <path value="$PROJECT_DIR$/htdocs/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/htdocs/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/htdocs/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/finder-facade" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-log" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-hydrator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-inputfilter" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-form" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-psr7bridge" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-console" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-serializer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-crypt" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-i18n" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laminas/laminas-filter" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/yubico/u2flib-server" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-braintree" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-signifyd" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-tinymce-3" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-braintree-graph-ql" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-authorizenet-graph-ql" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-authorizenet-cardinal" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-paypal-recaptcha" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-authorizenet-acceptjs" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/magento/module-authorizenet" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/cache/cache" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/dotmailer/dotmailer-magento2-extension-chat" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/msp/twofactorauth" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/msp/recaptcha" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/dotmailer/dotmailer-magento2-extension" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/flow/jsonpath" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/csharpru/vault-php-guzzle6-transport" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/theseer/fdomdocument" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/klarna/module-core" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/klarna/module-ordermanagement" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/klarna/module-kp" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/donatj/phpuseragentparser" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/yotpo/magento2-module-yotpo-reviews" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/amzn/amazon-pay-sdk-php" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/amzn/amazon-pay-and-login-with-amazon-core-module" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/amzn/amazon-pay-module" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/amzn/login-with-amazon-module" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vertexinc/module-address-validation-api" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vertexinc/module-address-validation" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vertexinc/sdk" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vertexinc/module-tax" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <PhpStanConfiguration tool_path="$PROJECT_DIR$/htdocs/vendor/bin/phpstan" />
+    </PhpStan_settings>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>

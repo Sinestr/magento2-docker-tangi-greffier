@@ -1,0 +1,45 @@
+[2022-06-24 09:03:54] main.ERROR: Error: Application is not installed yet.  [] []
+[2022-06-24 09:06:30] main.ERROR: The "--search-engine" option does not exist.
+#0 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Input\ArgvInput.php(143): Symfony\Component\Console\Input\ArgvInput->addLongOption('search-engine', 'elasticsearch7')
+#1 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Input\ArgvInput.php(79): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--search-engine...')
+#2 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Input\Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Command\Command.php(214): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(1009): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(273): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\bin\magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2022-06-24 09:08:36] main.ERROR: Unable to apply data patch Magento\Theme\Setup\Patch\Data\RegisterThemes for module Magento_Theme. Original exception message: Wrong file
+#0 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\setup\src\Magento\Setup\Model\Installer.php(1046): Magento\Framework\Setup\Patch\PatchApplier->applyDataPatch('Magento_Theme')
+#1 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\setup\src\Magento\Setup\Model\Installer.php(913): Magento\Setup\Model\Installer->handleDBSchemaData(Object(Magento\Setup\Module\DataSetup), 'data', Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installDataFixtures(Array)
+#3 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\setup\src\Magento\Setup\Model\Installer.php(371): call_user_func_array(Array, Array)
+#4 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\setup\src\Magento\Setup\Console\Command\InstallCommand.php(221): Magento\Setup\Model\Installer->install(Array)
+#5 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Command\Command.php(255): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(1009): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(273): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 D:\CLIENTS\magento2-docker-tangi-greffier\htdocs\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2022-06-24 09:14:46] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:14:46] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:15:08] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:19:02] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:05] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:08] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:11] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:14] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:17] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:19:20] main.INFO: Reference to undeclared plugin with name 'priceIndexUpdater'. [] []
+[2022-06-24 09:21:48] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:24:15] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:28:28] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:28:29] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
+[2022-06-24 09:30:13] main.ERROR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname [] []
+[2022-06-24 09:31:14] main.ERROR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname [] []
+[2022-06-24 09:31:35] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2022-06-24 09:31:59] main.ERROR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname [] []
+[2022-06-24 09:32:38] main.ERROR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname [] []
+[2022-06-24 09:34:59] main.ERROR: SQLSTATE[HY000] [2002] No such file or directory [] []
